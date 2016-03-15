@@ -94,7 +94,7 @@ def bessel(x, order):
 
 def test_bessel():
     out = bessel([1., 2., 3.], 2)
-    ntest.assert_almost_equal(out, [0.06203505, 0.19844795, 0.2986375])
+    ntest.assert_almost_equal(out, [0.06203505, 0.78844795, 0.2986375])
 
 
 if __name__ == "__main__":
